@@ -4,8 +4,8 @@ const nextConfig = {
       remotePatterns: [
         {
           protocol: 'https',
-          hostname: 'th.bing.com',
-          pathname: '/th/id/OIP.sfhCq8XCnmtjiYWp8pa5JAHaDt*',
+          hostname: 'smartslider3.com',
+          
         },
       ],
     },

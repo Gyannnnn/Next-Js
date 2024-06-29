@@ -3,12 +3,12 @@ import Image from 'next/image';
 
 const about = () => {
   return (
-    <div className='container'>
+    <div className='container size-80 bg-red-300 relative'>
       <Image
-        className='mx-auto py-10'
-        width={100}
-        height={100}
-        src="https://th.bing.com/th/id/OIP.sfhCq8XCnmtjiYWp8pa5JAHaDt?rs=1&pid=ImgDetMain"
+        className='mx-auto py-10 object-contain'
+       
+        fill={true}
+        src="https://smartslider3.com/wp-content/uploads/slider132/image-slider-with-thumbnail1.jpeg"
         alt="Description of the image"
       />
       <p>This Is an About Page</p>
